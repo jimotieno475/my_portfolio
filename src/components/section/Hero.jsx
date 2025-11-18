@@ -140,7 +140,7 @@ const HeroSection = () => {
                             <motion.p
                                 variants={itemVariants}
                                 className={`text-base md:text-lg ${isDarkMode ? "text-gray-400" : "text-gray-600"} mb-8 max-w-xl mx-auto font-light leading-relaxed`}>
-                                i craft fnej
+                                Hi, I'm Jim Otieno, a Full Stack & Mobile native developer and who loves turning ideas into interactive solutions , hit me up we solve the problems together.
                             </motion.p>
 
                             {/* CTA Buttons- Mobile */}

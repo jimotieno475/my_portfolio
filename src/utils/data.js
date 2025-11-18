@@ -22,9 +22,7 @@ import PROJECT_IMG_1 from "../assets/images/project1.png";
 import PROJECT_IMG_2 from "../assets/images/project2.png";
 import PROJECT_IMG_3 from "../assets/images/project3.png";
 import PROJECT_IMG_4 from "../assets/images/project4.jpg";
-import PROJECT_IMG_5 from "../assets/images/project-5.jpg";
-import PROJECT_IMG_6 from "../assets/images/project-6.jpg";
-import PROJECT_IMG_7 from "../assets/images/project-7.jpg";
+
 
 export const SKILLS_CATEGORY = [
   {
