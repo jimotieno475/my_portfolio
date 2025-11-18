@@ -144,41 +144,42 @@ export const PROJECTS = [
 export const JOURNEY_STEPS = [
   {
     year: "2023",
-    title: "Started my College journey",
+    title: "Started My College Journey",
     company: "Moringa School",
     description:
-      "Discovering myself and my interests in  the technology world and decided to take a course in software engineering",
+      "Discovered my interests in the technology world and decided to take a course in Software Engineering.",
     icon: Code2,
     color: "bg-blue-500",
   },
   {
     year: "2024",
     title: "Graduated with Certificate in Software Engineering",
-    company: "Moringa School ",
+    company: "Moringa School",
     description:
-      "Graduated and entered into the world of thech learning more in web dev and mobile dev to buid my journey of becoming a sucessfull filstack/native mobile developer.",
+      "Graduated and entered the world of tech, learning more in web and mobile development to build my journey of becoming a successful full-stack / native mobile developer.",
     icon: GraduationCap,
     color: "bg-green-500",
   },
   {
     year: "2024",
     title: "Mobile Development",
-    company: "Freelance.",
+    company: "Freelance",
     description:
-      "I got facinated by react native and started to learn more building small project untill i landed a big project in 2025.",
+      "I became fascinated by React Native and started learning more by building small projects until I landed a bigger project in 2025.",
     icon: Briefcase,
     color: "bg-green-500",
   },
   {
     year: "2025-2027",
-    title: "Persuing a Degree",
+    title: "Pursuing a Degree",
     company: "Zetech University",
     description:
-      "I decided to take a Bachelors of Science in Software Engineering at Zetech University which will run to 2027 while i still do freelance . ",
+      "I decided to pursue a Bachelor of Science in Software Engineering at Zetech University, which will run until 2027, while continuing freelance work.",
     icon: BookOpen,
     color: "bg-green-500",
   },
 ]
+
 
 export const PASSIONS = [
   {
