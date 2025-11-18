@@ -14,6 +14,7 @@ import {
   Mail,
   MapPin,
   Phone,
+  Smartphone,
 } from "lucide-react";
 
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
@@ -57,15 +58,15 @@ export const SKILLS_CATEGORY = [
     { name: "SqlLite", level: 95, color: "bg-yellow-600" },
   ],
 },
-// {
-//   title: "DevOps",
-//   icon: Cloud,
-//   description: "Deploying and scaling applications",
-//   skills: [
-//     { name: "Docker", level: 82, color: "bg-blue-600" },
-//     { name: "AWS", level: 78, color: "bg-orange-600" },
-//   ],
-// },
+{
+  title: "MobileDev",
+  icon: Smartphone,
+  description: "Making smooth mobile apps",
+  skills: [
+    { name: "ReactNtive", level: 90, color: "bg-blue-600" },
+    { name: "NtiveWind", level: 90, color: "bg-yellow-600" },
+  ],
+},
 ];
 
 export const TECH_STACK = [
