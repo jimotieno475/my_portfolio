@@ -110,8 +110,7 @@ const AboutSection = () => {
                               className={`text-lg leading-relaxed mb-6 ${isDarkMode ? "text-gray-300" : "text-gray-700"
                                   }`}
                           >
-                              I believe technology should be a bridge that connects people and solves real-world problems. My passion lies in crafting digital experiences that are not just functional, but delightful and accessible to every
-                          </p>
+                                I believe technology should be a bridge that connects people and solves real-world problems. My passion lies in crafting digital experiences that are not just functional, but delightful, inclusive, and accessible to everyone.                          </p>
                           <p
                           className={`break-words text-base leading-relaxed ${isDarkMode ? "text-gray-400" : "text-gray-600"}`}>
                             </p>
@@ -156,10 +155,10 @@ const AboutSection = () => {
                           </div>
                           {/* <DigitalSignature /> */}
                           <div className="flex justify-center">
-                              <img src={SIGNATURE} alt="Soumyo" className="w-28" />
+                              {/* <img src={SIGNATURE} alt="Soumyo" className="w-28" /> */}
                           </div>
                           <div className="text-lg font-medium text-blue-500 mt-2">
-                              Soumyodeep
+                              Jim Dev
                           </div>
                       </motion.div>
                   </motion.div>

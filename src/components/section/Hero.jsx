@@ -10,7 +10,7 @@ import {
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { useTheme } from "../../context/ThemeContext";
 
-import PROFILE_PIC from '../../assets/profile-img.jpg';
+import PROFILE_PIC from '../../assets/me.jpeg';
 import { containerVariants, itemVariants } from "../../utils/helper";
 
 const HeroSection = () => {

@@ -29,10 +29,10 @@ export const SKILLS_CATEGORY = [
   {
     title: "Frontend",
     icon: Code2,
-    description: "Crafting beautiful, responsive user interfaces",
+    description: "Building responsive and visually appealing user interfaces.",
     skills: [
       { name: "React", level: 95, color: "bg-blue-500" },
-      { name: "javaScript", level: 90, color: "bg-blue-600" },
+      { name: "JavaScript", level: 90, color: "bg-blue-600" },
       { name: "Tailwind CSS", level: 92, color: "bg-cyan-500" },
       { name: "Framer Motion", level: 85, color: "bg-pink-500" },
     ],
@@ -40,7 +40,7 @@ export const SKILLS_CATEGORY = [
   {
     title: "Backend",
     icon: Server,
-    description: "Building robust server-side solutions",
+    description: "Creating robust server-side applications and APIs.",
     skills: [
       { name: "Express.js", level: 40, color: "bg-gray-700" },
       { name: "Python", level: 85, color: "bg-yellow-500" },
@@ -49,24 +49,24 @@ export const SKILLS_CATEGORY = [
     ],
   },
   {
-  title: "Database",
-  icon: Database,
-  description: "Managing and optimizing data storage",
-  skills: [
-    { name: "Express", level: 40, color: "bg-green-600" },
-    { name: "MySql", level: 96, color: "bg-red-500" },
-    { name: "SqlLite", level: 95, color: "bg-yellow-600" },
-  ],
-},
-{
-  title: "MobileDev",
-  icon: Smartphone,
-  description: "Making smooth mobile apps",
-  skills: [
-    { name: "ReactNtive", level: 90, color: "bg-blue-600" },
-    { name: "NtiveWind", level: 90, color: "bg-yellow-600" },
-  ],
-},
+    title: "Database",
+    icon: Database,
+    description: "Designing and managing efficient data storage solutions.",
+    skills: [
+      { name: "MongoDB", level: 40, color: "bg-green-600" },
+      { name: "MySQL", level: 96, color: "bg-red-500" },
+      { name: "SQLite", level: 95, color: "bg-yellow-600" },
+    ],
+  },
+  {
+    title: "Mobile Development",
+    icon: Smartphone,
+    description: "Building smooth and performant mobile applications.",
+    skills: [
+      { name: "React Native", level: 90, color: "bg-blue-600" },
+      { name: "NativeWind", level: 90, color: "bg-yellow-600" },
+    ],
+  },
 ];
 
 export const TECH_STACK = [
@@ -74,12 +74,12 @@ export const TECH_STACK = [
   "HTML5",
   "CSS3",
   "Vite",
-  "tailwind",
-  "nativewind",
-  "react",
-  "reactnative",
-  "React-Router",
-  "git"
+  "Tailwind",
+  "NativeWind",
+  "React",
+  "React Native",
+  "React Router",
+  "Git"
 ];
 
 export const STATS = [
@@ -90,11 +90,11 @@ export const STATS = [
 ];
 
 export const PROJECTS = [
-    {
+  {
     id: 1,
-    title: "School website",
+    title: "School Website",
     description:
-      "A website for an English school based in poland the website hasstwo languages to swithch to polish and English.",
+      "A bilingual website for an English school in Poland, with Polish and English support.",
     image: PROJECT_IMG_2,
     tags: ["React", "Node.js", "Vite", "Tailwind"],
     liveUrl: "https://easylearninglanguage.com/",
@@ -102,23 +102,11 @@ export const PROJECTS = [
     featured: true,
     category: "Full Stack",
   },
-  // {
-  //   id: 2,
-  //   title: "E-Commerce Platform",
-  //   description:
-  //     "A full-stack e-commerce solution with advanced filtering, payment integration, and real-time inventory management.",
-  //   image: PROJECT_IMG_1,
-  //   tags: ["React", "Tailwind", "Vite"],
-  //   liveUrl: "https://jimotieno475.github.io/Obinnatv-Stores/",
-  //   githubUrl: "https://github.com/jimotieno475/Obinnatv-Stores.git",
-  //   featured: false,
-  //   category: "Full Stack",
-  // },
-    {
+  {
     id: 3,
     title: "E-Commerce Platform",
     description:
-      "A full-stack e-commerce solution for selling furniture with advanced filtering,and real-time inventory management.",
+      "A full-stack furniture store with advanced filtering and real-time inventory management.",
     image: PROJECT_IMG_3,
     tags: ["React", "Tailwind", "Vite"],
     liveUrl: "https://jimotieno475.github.io/Furniture-store/",
@@ -128,18 +116,17 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    title: "mechanic mobile app",
+    title: "Mechanic Mobile App",
     description:
-      "A mobile app  where a user can  book mechanics when they have an emergency.",
+      "A mobile app that lets users book mechanics instantly in case of emergencies.",
     image: PROJECT_IMG_4,
-    tags: ["React", "Node.js", "MongoDB", "Tailwind", "Reactnative", "Nativewind", "MySql"],
+    tags: ["React", "Tailwind", "React Native", "NativeWind", "MySQL"],
     liveUrl: "https://expo.dev/accounts/mackx6/projects/mech/builds/957af59d-8d93-4848-9c58-5266909a9dfc",
     githubUrl: "https://github.com/jimotieno475/MechanicRideApp",
     featured: true,
     category: "Full Stack",
   },
-  
-]
+];
 
 export const JOURNEY_STEPS = [
   {
@@ -147,7 +134,7 @@ export const JOURNEY_STEPS = [
     title: "Started My College Journey",
     company: "Moringa School",
     description:
-      "Discovered my interests in the technology world and decided to take a course in Software Engineering.",
+      "Discovered my passion for technology and enrolled in Software Engineering.",
     icon: Code2,
     color: "bg-blue-500",
   },
@@ -156,7 +143,7 @@ export const JOURNEY_STEPS = [
     title: "Graduated with Certificate in Software Engineering",
     company: "Moringa School",
     description:
-      "Graduated and entered the world of tech, learning more in web and mobile development to build my journey of becoming a successful full-stack / native mobile developer.",
+      "Gained skills in web and mobile development and began my journey as a full-stack / native mobile developer.",
     icon: GraduationCap,
     color: "bg-green-500",
   },
@@ -165,7 +152,7 @@ export const JOURNEY_STEPS = [
     title: "Mobile Development",
     company: "Freelance",
     description:
-      "I became fascinated by React Native and started learning more by building small projects until I landed a bigger project in 2025.",
+      "Became fascinated by React Native and built small projects, culminating in a larger project in 2025.",
     icon: Briefcase,
     color: "bg-green-500",
   },
@@ -174,30 +161,30 @@ export const JOURNEY_STEPS = [
     title: "Pursuing a Degree",
     company: "Zetech University",
     description:
-      "I decided to pursue a Bachelor of Science in Software Engineering at Zetech University, which will run until 2027, while continuing freelance work.",
+      "Studying for a Bachelor of Science in Software Engineering while continuing freelance projects.",
     icon: BookOpen,
     color: "bg-green-500",
   },
-]
-
+];
 
 export const PASSIONS = [
   {
     icon: Heart,
     title: "User Experience",
-    description: "Crafting intuitive interfaces that users love and iteract with smoothly",
+    description: "Crafting intuitive interfaces that users love to interact with.",
   },
   {
     icon: Coffee,
     title: "Problem Solving",
-    description: "Turning complex challenges into elegant solutions to real world problems",
+    description: "Turning complex challenges into elegant solutions for real-world problems.",
   },
   {
     icon: BookOpen,
     title: "Continuous Learning",
-    description: "Always exploring new technologies and best practices in beth mobile and web developmet ",
+    description: "Always exploring new technologies and best practices for mobile and web development.",
   },
 ];
+
 export const SOCIAL_LINKS = [
   {
     name: "GitHub",
