@@ -27,6 +27,9 @@ import PROJECT_IMG_1 from "../assets/images/project1.png";
 import PROJECT_IMG_2 from "../assets/images/project2.png";
 import PROJECT_IMG_3 from "../assets/images/project3.png";
 import PROJECT_IMG_4 from "../assets/images/project4.jpg";
+import PROJECT_IMG_5 from "../assets/images/project5.png";
+import PROJECT_IMG_6 from "../assets/images/project6.png";
+import PROJECT_IMG_7 from "../assets/images/project7.png";
 
 export const SKILLS_CATEGORY = [
   {
@@ -134,7 +137,7 @@ export const PROJECTS = [
     title: "Jenova Tech",
     description:
       "A technology brand website presenting digital services through a modern, responsive interface.",
-    icon: Laptop,
+    image: PROJECT_IMG_5,
     coverClass: "from-slate-950 via-blue-950 to-indigo-900",
     tags: ["React", "Vite", "Tailwind CSS"],
     liveUrl: "https://jenova-tech.netlify.app/",
@@ -146,7 +149,7 @@ export const PROJECTS = [
     title: "Nuru Travels",
     description:
       "A travel experience website for exploring journeys, itineraries and trip options, with interactive trip-saving and enquiry-style interface elements.",
-    icon: Plane,
+    image: PROJECT_IMG_6,
     coverClass: "from-sky-950 via-cyan-900 to-teal-800",
     tags: ["React", "Vite", "Tailwind CSS", "Local Storage"],
     liveUrl: "https://nuru-travels.netlify.app/",
@@ -160,7 +163,7 @@ export const PROJECTS = [
     title: "Mansu Plas",
     description:
       "A property discovery interface for browsing homes, viewing listing details and preparing enquiries through contact channels.",
-    icon: Building2,
+    image: PROJECT_IMG_7,
     coverClass: "from-emerald-950 via-teal-900 to-slate-800",
     tags: ["React", "Vite", "Tailwind CSS", "Local Storage"],
     liveUrl: "https://mansu-plas.netlify.app/",
@@ -169,18 +172,18 @@ export const PROJECTS = [
     featured: true,
     category: "Property Website",
   },
-  {
-    id: 7,
-    title: "Dr Ben Kajwang — Portfolio",
-    description:
-      "A professional portfolio website created to present an individual's profile and professional presence online.",
-    icon: UserRound,
-    coverClass: "from-stone-950 via-amber-950 to-neutral-800",
-    tags: ["Portfolio Website", "Responsive Design"],
-    liveUrl: "https://dr-ben-kajwang.netlify.app/",
-    featured: false,
-    category: "Portfolio Website",
-  },
+  // {
+  //   id: 7,
+  //   title: "Dr Ben Kajwang — Portfolio",
+  //   description:
+  //     "A professional portfolio website created to present an individual's profile and professional presence online.",
+  //   icon: UserRound,
+  //   coverClass: "from-stone-950 via-amber-950 to-neutral-800",
+  //   tags: ["Portfolio Website", "Responsive Design"],
+  //   liveUrl: "https://dr-ben-kajwang.netlify.app/",
+  //   featured: false,
+  //   category: "Portfolio Website",
+  // },
 ];
 
 export const JOURNEY_STEPS = [
