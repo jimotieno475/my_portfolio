@@ -15,15 +15,18 @@ import {
   MapPin,
   Phone,
   Smartphone,
+  Plane,
+  Building2,
+  UserRound,
+  Laptop,
 } from "lucide-react";
 
-import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
 
 import PROJECT_IMG_1 from "../assets/images/project1.png";
 import PROJECT_IMG_2 from "../assets/images/project2.png";
 import PROJECT_IMG_3 from "../assets/images/project3.png";
 import PROJECT_IMG_4 from "../assets/images/project4.jpg";
-
 
 export const SKILLS_CATEGORY = [
   {
@@ -40,7 +43,7 @@ export const SKILLS_CATEGORY = [
   {
     title: "Backend",
     icon: Server,
-    description: "Creating robust server-side applications and APIs.",
+    description: "Creating server-side applications and APIs.",
     skills: [
       { name: "Express.js", level: 40, color: "bg-gray-700" },
       { name: "Python", level: 85, color: "bg-yellow-500" },
@@ -74,95 +77,129 @@ export const TECH_STACK = [
   "HTML5",
   "CSS3",
   "Vite",
-  "Tailwind",
+  "Tailwind CSS",
   "NativeWind",
   "React",
   "React Native",
   "React Router",
-  "Git"
+  "Git",
 ];
 
 export const STATS = [
-  { number: "20+", label: "Projects Completed" },
-  { number: "2+", label: "Years Experience" },
   { number: "10+", label: "Technologies" },
-  { number: "100%", label: "Client Satisfaction" },
+  { number: "Web & Mobile", label: "Development Focus" },
+  { number: "2027", label: "Expected Graduation" },
 ];
 
 export const PROJECTS = [
   {
     id: 1,
-    title: "School Website",
+    title: "Easy Learning Language",
     description:
-      "A bilingual website for an English school in Poland, with Polish and English support.",
+      "A bilingual English and Polish website for a language school, designed to make its information and learning services accessible to both language communities.",
     image: PROJECT_IMG_2,
-    tags: ["React", "Node.js", "Vite", "Tailwind"],
+    tags: ["React", "Vite", "Tailwind CSS", "i18next"],
     liveUrl: "https://easylearninglanguage.com/",
     githubUrl: "https://github.com/jimotieno475/EasyLearningLanguage",
     featured: true,
-    category: "Full Stack",
+    category: "Web Application",
   },
   {
-    id: 3,
-    title: "E-Commerce Platform",
+    id: 2,
+    title: "Furniture Store",
     description:
-      "A full-stack furniture store with advanced filtering and real-time inventory management.",
+      "An e-commerce-style furniture storefront with product browsing and a responsive shopping experience.",
     image: PROJECT_IMG_3,
-    tags: ["React", "Tailwind", "Vite"],
+    tags: ["React", "Vite", "Tailwind CSS"],
     liveUrl: "https://jimotieno475.github.io/Furniture-store/",
     githubUrl: "https://github.com/jimotieno475/Furniture-store",
     featured: false,
-    category: "Full Stack",
+    category: "E-Commerce",
+  },
+  {
+    id: 3,
+    title: "Mechanic Mobile App",
+    description:
+      "A mobile application concept that helps users find and book mechanic assistance when they need vehicle support.",
+    image: PROJECT_IMG_4,
+    tags: ["React Native", "Expo", "NativeWind", "Flask", "SQLite"],
+    liveUrl:
+      "https://expo.dev/accounts/mackx6/projects/mech/builds/957af59d-8d93-4848-9c58-5266909a9dfc",
+    githubUrl: "https://github.com/jimotieno475/MechanicRideApp",
+    featured: true,
+    category: "Mobile Application",
   },
   {
     id: 4,
-    title: "Mechanic Mobile App",
+    title: "Jenova Tech",
     description:
-      "A mobile app that lets users book mechanics instantly in case of emergencies.",
-    image: PROJECT_IMG_4,
-    tags: ["React", "Tailwind", "React Native", "NativeWind", "MySQL"],
-    liveUrl: "https://expo.dev/accounts/mackx6/projects/mech/builds/957af59d-8d93-4848-9c58-5266909a9dfc",
-    githubUrl: "https://github.com/jimotieno475/MechanicRideApp",
+      "A technology brand website presenting digital services through a modern, responsive interface.",
+    icon: Laptop,
+    coverClass: "from-slate-950 via-blue-950 to-indigo-900",
+    tags: ["React", "Vite", "Tailwind CSS"],
+    liveUrl: "https://jenova-tech.netlify.app/",
     featured: true,
-    category: "Full Stack",
+    category: "Business Website",
+  },
+  {
+    id: 5,
+    title: "Nuru Travels",
+    description:
+      "A travel experience website for exploring journeys, itineraries and trip options, with interactive trip-saving and enquiry-style interface elements.",
+    icon: Plane,
+    coverClass: "from-sky-950 via-cyan-900 to-teal-800",
+    tags: ["React", "Vite", "Tailwind CSS", "Local Storage"],
+    liveUrl: "https://nuru-travels.netlify.app/",
+    githubUrl: "https://github.com/jimotieno475/nuru-travels",
+    note: "Frontend prototype: booking and newsletter actions are not connected to a live backend.",
+    featured: true,
+    category: "Travel Website",
+  },
+  {
+    id: 6,
+    title: "Mansu Plas",
+    description:
+      "A property discovery interface for browsing homes, viewing listing details and preparing enquiries through contact channels.",
+    icon: Building2,
+    coverClass: "from-emerald-950 via-teal-900 to-slate-800",
+    tags: ["React", "Vite", "Tailwind CSS", "Local Storage"],
+    liveUrl: "https://mansu-plas.netlify.app/",
+    githubUrl: "https://github.com/jimotieno475/Mansu-Plas",
+    note: "Frontend prototype: property details and contact information include sample content.",
+    featured: true,
+    category: "Property Website",
+  },
+  {
+    id: 7,
+    title: "Dr Ben Kajwang — Portfolio",
+    description:
+      "A professional portfolio website created to present an individual's profile and professional presence online.",
+    icon: UserRound,
+    coverClass: "from-stone-950 via-amber-950 to-neutral-800",
+    tags: ["Portfolio Website", "Responsive Design"],
+    liveUrl: "https://dr-ben-kajwang.netlify.app/",
+    featured: false,
+    category: "Portfolio Website",
   },
 ];
 
 export const JOURNEY_STEPS = [
   {
-    year: "2023",
-    title: "Started My College Journey",
+    year: "2023–2024",
+    title: "Full-Stack Software Engineering Training",
     company: "Moringa School",
     description:
-      "Discovered my passion for technology and enrolled in Software Engineering.",
+      "Completed practical training in software development, building a foundation in web and application development.",
     icon: Code2,
     color: "bg-blue-500",
   },
   {
-    year: "2024",
-    title: "Graduated with Certificate in Software Engineering",
-    company: "Moringa School",
-    description:
-      "Gained skills in web and mobile development and began my journey as a full-stack / native mobile developer.",
-    icon: GraduationCap,
-    color: "bg-green-500",
-  },
-  {
-    year: "2024",
-    title: "Mobile Development",
-    company: "Freelance",
-    description:
-      "Became fascinated by React Native and built small projects, culminating in a larger project in 2025.",
-    icon: Briefcase,
-    color: "bg-green-500",
-  },
-  {
-    year: "2025-2027",
-    title: "Pursuing a Degree",
+    year: "2025–2027",
+    title: "BSc Software Engineering",
     company: "Zetech University",
     description:
-      "Studying for a Bachelor of Science in Software Engineering while continuing freelance projects.",
-    icon: BookOpen,
+      "Pursuing a Bachelor of Science in Software Engineering while developing web and mobile projects.",
+    icon: GraduationCap,
     color: "bg-green-500",
   },
 ];
@@ -171,17 +208,18 @@ export const PASSIONS = [
   {
     icon: Heart,
     title: "User Experience",
-    description: "Crafting intuitive interfaces that users love to interact with.",
+    description: "Crafting intuitive interfaces that users can navigate with ease.",
   },
   {
     icon: Coffee,
     title: "Problem Solving",
-    description: "Turning complex challenges into elegant solutions for real-world problems.",
+    description: "Turning complex challenges into practical software solutions.",
   },
   {
     icon: BookOpen,
     title: "Continuous Learning",
-    description: "Always exploring new technologies and best practices for mobile and web development.",
+    description:
+      "Exploring new technologies and strengthening my skills in software engineering.",
   },
 ];
 
@@ -226,7 +264,3 @@ export const CONTACT_INFO = [
     value: "(+254) 712764067",
   },
 ];
-
-
-// m6VX.vfg2C4amaa
-// service_cbqeidx
